@@ -4,7 +4,7 @@ RelayOps AI is a visual studio and durable local execution service for building 
 
 [Public offline demo](https://paragjindal.com/relayops/) · [API reference](docs/api.md) · [Security policy](SECURITY.md) · [Contributing](CONTRIBUTING.md)
 
-[Conceptual cover artwork](https://github.com/Paragjindal01/paragjindal-portfolio/blob/main/docs/artwork/relayops-ai.webp)
+[Conceptual cover artwork](docs/artwork.webp)
 
 ## Studio and execution trace
 
@@ -98,3 +98,5 @@ See [benchmark runs](docs/benchmark.md) for measured examples and [workflow API]
 ## Boundaries and roadmap
 
 The hosted app is an offline demonstration. The durable service is a single-instance, SQLite-backed deployment intended for a local operator. Sessions are capabilities; multi-tenant identity, enterprise RBAC, redundant workers and backup automation are future work. Signed webhook delivery is available in the local service. Notifications and mitigation outputs remain simulated. The service has no external write connector. Research uses labeled sample sources. Public GitHub and the named public HTTP integration use fixed, read-only requests in connected mode. Provider adapter checks use mocked responses unless otherwise noted. No paid model account or infrastructure is required for the public or local offline workflows.
+
+[Release notes and verified source provenance](docs/release-provenance.md)
